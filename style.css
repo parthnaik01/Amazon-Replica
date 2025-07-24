@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation Bar */
+  .nav_bar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .logo-image {
+    height: 45px;
+    width: 65px;
+  }
+  
+  .logo {
+    background-image: url(chattogram-bangladesh-april-24-2023-600nw-2292992631.webp);
+    background-size: cover;
+    background-color: #0f1111;
+    height: 45px;
+    width: 100%;
+  }
+  
+  .border {
+    border: 1px transparent;
+  }
+  
+  .border:hover {
+    border: 1px solid white;
+  }
+  
+  .add_first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+  }
+  
+  .add_second {
+    font-size: 1rem;
+    margin-left: 3px;
+  }
+  
+  .add_icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Search Bar */
+  .nav_search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  
+  .search_select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+  }
+  
+  .search_input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+  }
+  
+  .search_icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.3rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .nav_search:hover {
+    border: 2px solid orange;
+  }
+  
+  span {
+    font-size: 0.7rem;
+  }
+  
+  /* Navigation Bar (Second Section) */
+  .nav_second {
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+  
+  .nav_cart i {
+    font-size: 30px;
+  }
+  
+  .nav_cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+  
+  /* Panel Section */
+  .panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .panel_option p {
+    display: inline;
+    margin-left: 25px;
+  }
+  
+  .panel_option {
+    width: 70%;
+    font-size: 0.85rem;
+  }
+  
+  .panel_deals {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  
+  /* Hero Section */
+  .hero_section {
+    background-image: url("/assets/banner..1.jpg");
+    height: 350px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .hero_msg {
+    background-color: antiquewhite;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+  }
+  
+  .hero_msg a {
+    color: #007185;
+  }
+  
+  /* Shop Section */
+  .shop_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    margin-top: 10px;
+    height: 750px;
+  }
+  
+  .box {
+    height: 350px;
+    width: 22%;
+    background-color: black;
+    padding: 20px 0 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+  
+  .box_img {
+    opacity: 0;
+    height: 230px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    transition: all 1s ease-in 1s;
+    cursor: pointer;
+  }
+
+.box_img:hover{
+    opacity: 1;
+    box-shadow:2px 2px 2px  white ;
+}
+  
+  .box_content {
+    margin: 0 1rem;
+  }
+  
+  .box_content p {
+    color: #007185;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .box_content h2 {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .box_content a {
+    text-decoration: none;
+    color: #007185;
+  }
+  /* Footer */
+  footer {
+    margin-top: 15px;
+  }
+  
+  .foot_panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+  }
+  
+  .foot_panel2 {
+    height: 300px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  ul {
+    margin-top: 15px;
+  }
+  
+  ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 15px;
+    color: #dddddd;
+  }
+  
+  .foot_panel3 {
+    background-color: black;
+    color: white;
+    border-top: 1px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .foot_panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .pages,
+  .copyright {
+    padding-top: 25px;
+    color: white;
+  }
+  
+  .foot_logo {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .foot_logo img {
+    width: 150px;
+    height: auto;
+  }
+  
